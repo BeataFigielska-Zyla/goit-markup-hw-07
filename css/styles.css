@@ -98,19 +98,7 @@ ul {
     display: inline-block;
         }
     
-    
-    
-        .accent::after {
-            position: absolute;
-            left: 0;
-            bottom: -1px;
-            content: '';
-            width: 100%;
-            height: 4px;
-            flex-shrink: 0;
-            border-radius: 2px;
-            background-color: var(--ocean-color);
-        }
+   
     
         .contact-link {
             color: var(--slate-color);
@@ -145,11 +133,6 @@ ul {
             padding: 24px 0;
         }
     
-        .accent {
-            position: relative;
-            transition: color var(--mytransition-duration) var(--mytransition-timing-function);
-            color: var(--ocean-color);
-        }
     
         .nav-link:hover {
             color: var(--ocean-color);
@@ -164,7 +147,6 @@ ul {
             padding: 24px 0;
         }
     
-    
         .list-menu {
             display: flex;
             gap: 40px;
@@ -175,6 +157,11 @@ ul {
             gap: 40px;
             margin-left: 332px;
         }
+
+
+
+
+
     /* SECTION 2 */
 
         .list-section-two {
