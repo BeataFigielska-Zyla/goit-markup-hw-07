@@ -40,18 +40,30 @@ ul {
     list-style: none;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 /* ================================================= MOBILE ========================================= */
 @media screen and (max-width: 767px) {
+    
     .section {
-            padding: 120px 0;
+            margin-bottom: 96px;       
         }
     
-        .container {
-            width: 1158px;
+    .container {
+            width: 428px;
             margin: 0 auto;
-            padding-left: 15px;
-            padding-right: 15px;
-        }
+                }
     
         .header {
             outline: 1px solid var(--cornflower-color);
@@ -174,16 +186,28 @@ ul {
             gap: 40px;
             margin-left: 332px;
         }
-    
+    /* SECTION 2 */
+
         .list-section-two {
             display: flex;
-            gap: 24px;
-    
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 72px;
         }
+
+        .third-headline {
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        color: var(--navyblue-color);
+        line-height: 1.11;
+        letter-spacing: 0.06em;
+        margin-bottom: 8px;  
+        text-align: center;  
+                }
     
-        .list-section-two-li {
-            width: calc((100% - 72px) / 4);
-        }
+
     
         .list-section-three {
             display: flex;
@@ -369,17 +393,7 @@ ul {
             padding-top: 0;
         }
     
-        .third-headline {
-            font-family: Roboto;
-            font-size: 20px;
-            font-style: normal;
-            font-weight: 500;
-            color: var(--navyblue-color);
-            line-height: 1.2;
-            letter-spacing: 0.02em;
-            margin-bottom: 8px;
-    
-        }
+        
     
         .cursor {
             cursor: pointer;
@@ -463,25 +477,13 @@ ul {
     
         }
     
-        .visually-hidden {
-            position: absolute;
-            width: 1px;
-            height: 1px;
-            margin: -1px;
-            border: 0;
-            padding: 0;
-            white-space: nowrap;
-            clip-path: inset(100%);
-            clip: rect(0 0 0 0);
-            overflow: hidden;
-        }
-    
+        
         .portfolio-section {
             padding: 96px 0 120px 0
         }
     
         .icon-our-strategy {
-            display: flex;
+            display: none;
             align-items: center;
             justify-content: center;
             width: 264px;
