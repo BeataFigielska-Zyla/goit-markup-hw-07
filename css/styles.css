@@ -297,13 +297,14 @@ ul {
                 }
 
         .footer-logo-container {
-       
+        
         }
 
         .logo-footer {
         display: inline-block;
         padding: 0 auto;
         align-items: center;
+        margin-bottom: 16px;
                 }
         
         .logo-text-studio {
@@ -360,28 +361,98 @@ ul {
         letter-spacing: 0.02em;
         color: var(--white-color);
         margin-bottom: 16px;
+        display: block;
+        text-align: center;
          }
 
 
 
- .footer-social-media-list {
-     display: flex;
-     gap: 16px;
- }
+        .footer-social-media-list {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        }
 
- .footer-social-media-li {
-     height: 40px;
-     width: 40px;
- }
+        .footer-social-media-li {
+        height: 40px;
+        width: 40px;
+        }
 
- .footer-svg {
-     fill: var(--cloud-color);
- }
+        .footer-svg {
+        fill: var(--cloud-color);
+        }
 
- .footer-svg:hover {
-     fill: var(--green-color);
- }
+        .footer-svg:hover {
+        fill: var(--green-color);
+        }
 
+        .newsletter-div {
+        margin: 0 auto;
+        gap: 16px;
+                }
+        
+        .newsletter-form {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+                }
+        
+        .newsletter-label {}
+        
+        .newsletter-input {
+        width: 398px;
+        height: 40px;
+        background-color: var(--navyblue-color);
+        border-radius: 4px;
+        border: 1px solid var(--white-color);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 16px;
+        background-color: transparent;
+        color: var(--white-color);
+        opacity: 0.3;
+                }
+        
+        .newsletter-input::placeholder {
+        color: var(--white-color);
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+                }
+        
+        .newsletter-button {
+        display: flex;
+        padding: 8px 24px;
+        justify-content: center;
+        align-items: center;
+        width: 165px;
+        height: 40px;
+        border-radius: 4px;
+        background-color: var(--iris-color);
+        color: var(--white-color);
+        font-family: Roboto, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        border: none;
+        cursor: pointer;
+        
+                }
+        
+                .newsletter-svg {
+                    width: 24px;
+                    height: 24px;
+                    margin-left: 16px;
+        
+                }
+                }
 
         .list-button {
             display: flex;
@@ -907,75 +978,7 @@ ul {
             fill: var(--cloud-color);
         }
     
-        .newsletter-div {
-            margin-left: 80px;
-        }
-    
-        .newsletter-form {
-            display: flex;
-            gap: 24px;
-        }
-    
-        .newsletter-label {}
-    
-        .newsletter-input {
-            width: 264px;
-            height: 40px;
-            background-color: var(--navyblue-color);
-            border-radius: 4px;
-            border: 1px solid var(--white-color);
-            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-            padding-top: 8px;
-            padding-bottom: 8px;
-            padding-left: 16px;
-            background-color: transparent;
-            color: var(--white-color);
-            font-family: Roboto;
-            font-size: 12px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 1.5;
-            letter-spacing: 0.04em;
-        }
-    
-        .newsletter-input::placeholder {
-            color: var(--white-color);
-            font-family: Roboto;
-            font-size: 12px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 1.5;
-            letter-spacing: 0.04em;
-        }
-    
-        .newsletter-button {
-            display: flex;
-            padding: 8px 24px;
-            justify-content: center;
-            align-items: center;
-            min-width: 165px;
-            height: 40px;
-            border-radius: 4px;
-            background-color: var(--iris-color);
-            color: var(--white-color);
-            font-family: Roboto, sans-serif;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 1.5;
-            letter-spacing: 0.04em;
-            border: none;
-            cursor: pointer;
-    
-        }
-    
-        .newsletter-svg {
-            width: 24px;
-            height: 24px;
-            margin-left: 16px;
-    
-        }
-}
+        
 
 /* ================================================= TABLET ========================================= */
 @media screen and (min-width: 768px) {
