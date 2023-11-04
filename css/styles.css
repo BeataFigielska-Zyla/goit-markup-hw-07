@@ -289,11 +289,11 @@ ul {
         display: flex;
         flex-direction: column;
         gap: 72px;
+        padding-bottom: 96px;
 
         .background-list {
         display: flex;
         width: 264px;
-        padding-bottom: 0px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -372,6 +372,19 @@ ul {
                 }
 
         /* SECTION 5 */
+
+        .customers-headline {
+            text-align: center;
+            color: var(--navyblue-color);
+            font-family: Roboto;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 1.11;
+            letter-spacing: 0.72px;
+            text-transform: capitalize;
+            margin-bottom: 72px;
+        }
 
         .list-customers {
         display: flex;
