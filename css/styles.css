@@ -57,6 +57,10 @@ ul {
     text-decoration: none;
 }
 
+.cursor {
+    cursor: pointer;
+}
+
 /* ================================================= MOBILE ========================================= */
 @media screen and (max-width: 767px) {
     
@@ -98,27 +102,24 @@ ul {
     display: inline-block;
         }
     
-   
-    
-        .contact-link {
-            color: var(--slate-color);
-            font-family: Roboto;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
-            padding: 24px 0;
-            transition: color var(--mytransition-duration) var(--mytransition-timing-function);
+   .contact-link {
+    color: var(--slate-color);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+    transition: color var(--mytransition-duration) var(--mytransition-timing-function);
         }
     
-        .contact-link:hover {
-            color: var(--ocean-color);
+    .contact-link:hover {
+    color: var(--ocean-color);
         }
     
-        .contact-link:focus {
-            color: var(--ocean-color);
-    
+    .contact-link:focus {
+    color: var(--ocean-color);
         }
     
         .nav-link {
@@ -490,8 +491,6 @@ ul {
         background-color: var(--green-color);
         }
 
-
-
         .footer-p-socialmedia {
         font-family: Roboto;
         font-size: 16px;
@@ -504,8 +503,6 @@ ul {
         display: block;
         text-align: center;
          }
-
-
 
         .footer-social-media-list {
         display: flex;
@@ -583,32 +580,68 @@ ul {
         letter-spacing: 0.04em;
         border: none;
         cursor: pointer;
-        
                 }
         
-                .newsletter-svg {
-                    width: 24px;
-                    height: 24px;
-                    margin-left: 16px;
-        
-                }
-                }
+        .newsletter-svg {
+        width: 24px;
+        height: 24px;
+        margin-left: 16px;
+        }
+
+        /* PORTFOLIO */
+
+        .portfolio-section {
+        padding: 96px 0 120px 0
+                 }
 
         .list-button {
-            display: flex;
-            gap: 24px;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 72px
+        display: flex;
+        gap: 24px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 72px
         }
+        
+        .button-text {
+        color: var(--iris-color);
+        font-family: Roboto, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        background-color: var(--cloud-color);
+        padding: 12px 24px;
+        border: 1px solid var(--cornflower-color);
+        border-radius: 4px;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+         background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+         border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+         box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ }
+
+        .button-text:hover,
+        .button-text:focus {
+        color: var(--white-color);
+        background-color: var(--ocean-color);
+        border: 1px solid transparent;
+        box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+        }
+
     
         .list-portfolio {
     
             display: flex;
-            gap: 24px;
-            flex-wrap: wrap;
-            row-gap: 48px;
-    
+            flex-direction: column;
+            gap: 48px;
+        }
+
+        .list-portfolio-li {
+        max-width: 396px;
+        }
+
+        .list-portfolio-li:hover {
+        box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
         }
     
         .link-portfolio {
@@ -620,9 +653,22 @@ ul {
         .link-portfolio:focus {
             box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
                 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-                0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-    
+                0px 1px 6px 0px rgba(46, 47, 66, 0.08);   
         }
+
+        .link-portfolio:hover .pop-up-text {
+        transform: translateY(0%);
+        }
+        
+        .link-portfolio:focus .pop-up-text {
+        transform: translateY(0%);
+        }
+        
+        .projects {
+        padding: 32px 16px;
+        border: 1px solid var(--cornflower-color);
+        border-top: none;
+                 }
     
         .pop-up {
             position: relative;
@@ -647,79 +693,6 @@ ul {
             transition: transform var(--mytransition-duration) var(--mytransition-timing-function)
         }
     
-        .link-portfolio:hover .pop-up-text {
-            transform: translateY(0%);
-        }
-    
-        .link-portfolio:focus .pop-up-text {
-            transform: translateY(0%);
-        }
-    
-        .projects {
-            padding: 32px 16px;
-            border: 1px solid var(--cornflower-color);
-            border-top: none;
-        }
-    
-        .list-portfolio-li {
-            flex-basis: calc((100% - 48px) / 3);
-        }
-    
-        .list-portfolio-li:hover {
-            box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-    
-        }
-    
-       
-    
-       
-    
-        
-    
-      
-       
-    
-       
-        
-   
-        
-    
-        .cursor {
-            cursor: pointer;
-        }
-    
-        .button-text {
-            color: var(--iris-color);
-            font-family: Roboto, sans-serif;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 1.5;
-            letter-spacing: 0.04em;
-            background-color: var(--cloud-color);
-            padding: 12px 24px;
-            border: 1px solid var(--cornflower-color);
-            border-radius: 4px;
-    
-            transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        }
-    
-        .button-text:hover {
-            color: var(--white-color);
-            background-color: var(--ocean-color);
-            border: 1px solid transparent;
-            box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
-        }
-    
-        .button-text:focus {
-            color: var(--white-color);
-            background-color: var(--ocean-color);
-            border: 1px solid transparent;
-            box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
-        }
     
         .project-name {
             font-family: Roboto, sans-serif;
@@ -739,35 +712,12 @@ ul {
         
     
         
-        .portfolio-section {
-            padding: 96px 0 120px 0
-        }
-    
-        .icon-our-strategy {
-            display: none;
-            align-items: center;
-            justify-content: center;
-            width: 264px;
-            height: 112px;
-            border-radius: 4px;
-            background-color: var(--cloud-color);
-            margin-bottom: 8px;
-        }
-    
-        .icon-stategy {
-            width: 64px;
-            height: 64px;
-        }
-    
-        
-    
-    
-        
-        
-    
-    
-    
        
+    
+      
+  
+        
+              /* MODAL WINDOW */
     
         .modal-window {
             position: fixed;
@@ -837,13 +787,9 @@ ul {
             transition: fill var(--mytransition-duration) var(--mytransition-timing-function);
     
         }
-    
-    
-    
+       
         .modal-form {
-    
-            margin-bottom: 8px;
-    
+            margin-bottom: 8px;    
         }
     
         .modal-form-p {
