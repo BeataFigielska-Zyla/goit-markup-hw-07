@@ -149,12 +149,12 @@ ul {
         }
     
         .list-menu {
-            display: flex;
+            display: none;
             gap: 40px;
         }
     
         .list-address {
-            display: flex;
+            display: none;
             gap: 40px;
             margin-left: 332px;
         }
