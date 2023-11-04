@@ -1705,7 +1705,7 @@ ul {
         }
     
         .modal-hamburger-window.is-open {
-            transform: translateY(100%);
+            transform: translateY(0%);
         }
     
         .modal-hamburger-body {
