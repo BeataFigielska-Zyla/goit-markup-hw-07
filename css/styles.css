@@ -270,6 +270,21 @@ ul {
     
         /* SECTION 4 */
 
+        .our-team-headline {
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+        color: var(--navyblue-color);
+        margin-bottom: 72px;
+        padding-top: 96px;
+        
+                }
+
         .list-team {
         display: flex;
         flex-direction: column;
@@ -299,6 +314,7 @@ ul {
         padding: 0px;
         text-align: center;
         max-width: 264px;
+        margin: 32px auto;
                  }
         
         .person-name {
@@ -651,19 +667,7 @@ ul {
        
     
        
-        .second-headline {
-            font-family: Roboto;
-            font-size: 36px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 1.11;
-            text-align: center;
-            letter-spacing: 0.02em;
-            text-transform: capitalize;
-            color: var(--navyblue-color);
-            margin-bottom: 72px;
-    
-        }
+        
    
         
     
