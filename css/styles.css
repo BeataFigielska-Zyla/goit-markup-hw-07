@@ -171,6 +171,16 @@ ul {
         background-size: cover;
         background-repeat: no-repeat;
             }
+        
+        @media (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .main-section {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                    url(../images/main/people-office@2x.jpg);;
+            }
+        }
 
         .hero {
         display: flex;
@@ -286,9 +296,64 @@ ul {
         }
 
         .team-name {
-        padding: 32px 0px;
+        padding: 0px;
         text-align: center;
+        max-width: 264px;
                  }
+        
+        .person-name {
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        color: var(--navyblue-color);
+        line-height: 1.11;
+        letter-spacing: 0.4px;
+        margin-bottom: 8px;
+        text-align: center;
+                }
+        
+        .job-position {
+        text-align: center;
+        font-weight: 400;
+                                }
+        .list-social-media {
+            display: flex;
+            gap: 24px;
+            justify-content: center;
+        }
+
+        .list-social-media-li {
+            width: 40px;
+            height: 40px;
+        }
+
+        .social-media-link {
+            display: flex;
+            gap: 16px;
+            margin-top: 8px;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            background-color: var(--iris-color);
+            border-radius: 50%;
+            transition: background-color var(--mytransition-duration) var(--mytransition-timing-function);
+        }
+
+        .social-media-link:hover {
+            background-color: var(--ocean-color);
+        }
+
+        .social-media-link:focus {
+            background-color: var(--ocean-color);
+        }
+
+        .team-icon {
+        width: 16px;
+        height: 16px;
+        fill: #f4f4fd;
+                }
 
         /* SECTION 5 */
 
@@ -652,9 +717,7 @@ ul {
     
        
     
-        .job-position {
-            text-align: center;
-        }
+        
     
         
     
@@ -679,45 +742,11 @@ ul {
             height: 64px;
         }
     
-        .team-icon {
-            width: 16px;
-            height: 16px;
-            fill: #f4f4fd;
-        }
+        
     
     
         
-        .list-social-media {
-            display: flex;
-            gap: 24px;
-            justify-content: center;
-        }
-    
-        .list-social-media-li {
-            width: 40px;
-            height: 40px;
-        }
-    
-        .social-media-link {
-            display: flex;
-            gap: 16px;
-            margin-top: 8px;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            height: 100%;
-            background-color: var(--iris-color);
-            border-radius: 50%;
-            transition: background-color var(--mytransition-duration) var(--mytransition-timing-function);
-        }
-    
-        .social-media-link:hover {
-            background-color: var(--ocean-color);
-        }
-    
-        .social-media-link:focus {
-            background-color: var(--ocean-color);
-        }
+        
     
     
     
