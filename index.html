@@ -27,14 +27,7 @@
 
         <a class="logo link" href="./index.html">Web<span class="logo-text-studio">Studio</span></a>
 
-        <div class="menu-hamburger">
-            <button type="button" class="button-hamburger js-open-menu" aria-expanded="false"
-                aria-controls="mobile-menu">
-                <svg width="32" height="22">
-                    <use href="./images/icons.svg#icon-charm_menu-hamburger"></use>
-                </svg>
-            </button>
-
+       
             <ul class="list-menu">
                 <li>
                     <a class="nav-link link accent" href="./index.html">Studio</a>
@@ -46,7 +39,7 @@
                     <a class="nav-link link" href="">Contacts</a>
                 </li>
             </ul>
-        </div>
+       
         
 
         </nav>
@@ -62,6 +55,13 @@
 
 </address>
 
+<menu class="menu-hamburger">
+    <button type="button" class="button-hamburger menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+        <svg width="32" height="22">
+            <use href="./images/icons.svg#icon-hamburger"></use>
+        </svg>
+    </button>
+</menu>
 
 
 
@@ -540,12 +540,16 @@
         </div>
     </div>
 
-    <div class="modal-hamburger is-hidden" id="mobile-menu">
+    <div class="modal-hamburger-window js-menu-container" id="mobile-menu">
+       
+        <div class="modal-hamburger-body">
+        
         <button type="button" class="button-hamburger-close  js-close-menu">
-            <svg width="32" height="22">
-                <use href="./images/icons.svg#icon-charm_menu-hamburger"></use>
+            <svg width="8" height="8">
+                <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
             </svg>
         </button>
+        
 
         <ul class="list-menu">
             <li>
@@ -558,6 +562,7 @@
                 <a class="nav-link link" href="">Contacts</a>
             </li>
         </ul>
+    </div>
     </div>
 
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"

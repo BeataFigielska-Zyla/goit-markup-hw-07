@@ -167,7 +167,7 @@ ul {
         background-color: var(--navyblue-color);
         margin: 0 auto;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/main/people-office.jpg);
-        max-width: 1440px;
+        max-width: 767px;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -198,7 +198,7 @@ ul {
         line-height: 1.11;
         text-align: center;
         letter-spacing: 0.06em;
-        max-width: 320px;
+        width: ;
         margin-bottom: 72px;
                  }
         
@@ -706,13 +706,42 @@ ul {
         }
     
        
-    
+        /* HAMBURGER */
+
+        .button-hamburger {
+        border: none;
+        background-color: var(--white-color);
+        }
         
-    
+        .menu-hamburger {
+            padding-top: 24px;
+            padding-bottom: 24px;
+        }
+
+        .modal-hamburger-window {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        padding: 32px;
+        background-color: var(--white-color);
+        z-index: 999;
+        overflow-y: auto;
+        transform: translateY(100%);
+        transition: transform 250ms ease-in-out;
+        }
         
-    
+        .modal-hamburger-window.is-open {
+        transform: translateY(100%);
+        }
+
+        .modal-hamburger-body {
+        margin: auto;
+        max-width: 428px;
+        }
         
-       
+        
     
       
   
@@ -961,11 +990,15 @@ ul {
             fill: var(--cloud-color);
         }
     
-        
+    }
 
 /* ================================================= TABLET ========================================= */
 @media screen and (min-width: 768px) {
     /* cały kod */
+.menu-hamburger {
+    display: none;
+}
+
 }
 
 
@@ -973,4 +1006,9 @@ ul {
 /* ================================================= DESKTOP  ========================================= */
 @media screen and (min-width: 1158px) {
     /* co jest potrzebne dla desktopu */
+
+.menu-hamburger {
+        display: none;
+    }
+
 }
