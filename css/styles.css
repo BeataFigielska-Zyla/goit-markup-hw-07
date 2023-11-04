@@ -233,6 +233,10 @@ ul {
 
     /* SECTION 2 */
 
+    .icon-our-strategy {
+        display: none;
+    }
+
         .list-section-two {
             display: flex;
             flex-direction: column;
