@@ -1270,7 +1270,7 @@ height: 16px;
     
         .main-section {
             display: flex;
-            padding: 188px 0;
+            padding: 112px 0;
             background-color: var(--navyblue-color);
             margin: 0 auto;
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/main/people-office.jpg);
@@ -1308,6 +1308,8 @@ height: 16px;
             text-align: center;
             letter-spacing: 1.12px;
             margin-bottom: 36px;
+            padding-left: 136px;
+            padding-right: 136px;
         }
     
     
@@ -1386,7 +1388,12 @@ height: 16px;
         }
     
         /* SECTION 4 */
-    
+
+
+        .background-section {
+              background-color: var(--cloud-color);
+          }
+
         .our-team-headline {
             font-family: Roboto;
             font-size: 36px;
@@ -1399,7 +1406,6 @@ height: 16px;
             color: var(--navyblue-color);
             margin-bottom: 72px;
             padding-top: 96px;
-    
         }
     
         .list-team {
@@ -1407,27 +1413,22 @@ height: 16px;
             flex-wrap: wrap;
             gap: 24px;
             padding-bottom: 96px;
-    
-            .background-list {
-                display: flex;
-                width: 264px;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-               
-                margin: 0 auto;
-                background-color: var(--white-color);
-                border-radius: 0px 0px 4px 4px;
-                list-style: none;
-                box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-                width: calc((100% - 24px) / 2);
-            }
-    
-    
-    
-        .background-section {
-            background-color: var(--cloud-color);
+            row-gap: 64px;
         }
+    
+        .background-list {
+            display: flex;
+            width: calc((100% - 24px) / 2);
+            width: 264px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            background-color: var(--white-color);
+            border-radius: 0px 0px 4px 4px;
+            list-style: none;
+            box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);   
+            }
     
         .team-name {
             padding: 0px;
@@ -1509,14 +1510,16 @@ height: 16px;
         .list-customers {
             display: flex;
             flex-wrap: wrap;
-            gap: 16px;
+            gap: 24px;
             justify-content: center;
+            row-gap: 72px;
         }
     
         .list-customers-li {
-            width: calc((100% - 16px) / 2);
-            height: 88px;
-            width: 168px;
+        width: calc((100% - 48px) / 3);
+        height: 88px;
+        width: 168px;
+            
         }
     
         .link-customers {
@@ -1550,9 +1553,10 @@ height: 16px;
     
         .footer-container {
             display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 72px;
+            flex-wrap: wrap;
+            gap: 24px;
+            row-gap: 72px;
+            padding-left: 108px;
         }
     
         .footer-logo-container {
@@ -1616,7 +1620,7 @@ height: 16px;
             color: var(--white-color);
             margin-bottom: 16px;
             display: block;
-            text-align: center;
+            
         }
     
         .footer-social-media-list {
@@ -1639,21 +1643,20 @@ height: 16px;
         }
     
         .newsletter-div {
-            margin: 0 auto;
-            gap: 16px;
+           
         }
     
         .newsletter-form {
             display: flex;
-            flex-direction: column;
-            gap: 16px;
+            gap: 24px;
             align-items: center;
+            
         }
     
         .newsletter-label {}
     
         .newsletter-input {
-            width: 398px;
+            width: 264px;
             height: 40px;
             background-color: var(--navyblue-color);
             border-radius: 4px;
