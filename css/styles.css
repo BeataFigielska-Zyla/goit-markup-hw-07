@@ -2178,6 +2178,37 @@ margin-right: 76px;
    
 }
 
+/* section 3 */
+
+.section-three {
+    padding-top: 0;
+    display: block;
+}
+
+.second-headline {
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--navyblue-color);
+    margin-bottom: 72px;
+}
+
+.list-section-three {
+    display: flex;
+    gap: 24px;
+}
+
+.list-section-three-li {
+    width: calc((100% - 48px) / 3);
+}
+
+/* SECTION 4 */
+
 
 
 }
