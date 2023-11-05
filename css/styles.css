@@ -2097,4 +2097,26 @@ height: 16px;
     padding-right: 15px;
 }
 
+/* HEADER */
+
+.logo {
+margin-right: 76px;   
+}
+
+.contact-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+    
+}
+
+.list-address {
+    flex-direction: row;
+    gap: 40px;
+    margin-left: 332px;
+}
+
+
+
 }
