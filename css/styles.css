@@ -107,6 +107,10 @@ h1, h2, h3, h4, h5, h6, p, a {
     margin-right: 76px;
     display: inline-block;
         }
+
+    .logo-text-studio {
+    color: var(--navyblue-color);
+        }
     
    .contact-link {
     color: var(--slate-color);
@@ -459,9 +463,6 @@ h1, h2, h3, h4, h5, h6, p, a {
         margin: 0;
                 }
         
-        .logo-text-studio {
-        color: var(--navyblue-color);
-            }
         
         .logo-textfooter-studio {
         color: var(--cloud-color);
@@ -1139,7 +1140,7 @@ height: 16px;
 
 /* ================================================= TABLET ========================================= */
 @media screen and (min-width: 768px) {
-    /* cały kod */
+    
 .menu-hamburger {
     display: none;
 }
@@ -1163,9 +1164,7 @@ height: 16px;
         }
     
         .header-menu {
-            display: flex;
-            justify-content: space-evenly;
-        
+            display: flex;      
         }
     
         .header-nav {
@@ -1182,7 +1181,12 @@ height: 16px;
             text-transform: uppercase;
             color: var(--iris-color);
             display: inline-block;
+            margin-right: 120px;
         }
+
+        .logo-text-studio {
+        color: var(--navyblue-color);
+                }
     
         .contact-link {
             color: var(--slate-color);
@@ -1226,6 +1230,8 @@ height: 16px;
     
         .address {
             font-style: normal;
+            display: flex;
+            align-items: center;
             
         }
     
@@ -1239,8 +1245,7 @@ height: 16px;
             flex-direction: column;
             gap: 12px;
             margin-left: 121px;  
-            align-items: center;
-                                
+            align-items: center;                       
         }
 
         .accent {
@@ -1560,10 +1565,6 @@ height: 16px;
             display: block;
             text-align: center;
             margin: 0;
-        }
-    
-        .logo-text-studio {
-            color: var(--navyblue-color);
         }
     
         .logo-textfooter-studio {
