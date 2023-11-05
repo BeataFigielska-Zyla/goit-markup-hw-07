@@ -2117,6 +2117,67 @@ margin-right: 76px;
     margin-left: 332px;
 }
 
+/* SECTION 1 */
+
+.main-section {
+    padding: 188px 0;
+    max-width: 1440px;
+}
+
+.hero {
+    display: box;
+    align-items: center;
+}
+
+.main-header {
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+    padding: 0;
+}
+
+/* SECTION 2 */
+
+.icon-our-strategy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 264px;
+    height: 112px;
+    border-radius: 4px;
+    background-color: var(--cloud-color);
+    margin-bottom: 8px;
+}
+
+.icon-strategy {
+    width: 64px;
+    height: 64px;
+}
+
+.list-section-two {
+    flex-wrap: nowrap;
+    margin-top: 0;
+    row-gap: 0;
+}
+
+.list-section-two-li {
+    width: calc((100% - 72px) / 4);
+}
+
+.third-headline {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.description {
+    font-weight: 400;
+   
+}
+
 
 
 }
