@@ -765,9 +765,10 @@ display: flex;
 }
 
 .hamburger-close-button {
-margin-top: 24px;
-margin-right: 24px;
-margin-left: 380px;
+
+position: absolute;
+top: 24px;
+right: 24px;
 width: 24px;
 height: 24px;
 border-radius: 50%;
