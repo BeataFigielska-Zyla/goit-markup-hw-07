@@ -442,7 +442,7 @@ h1, h2, h3, h4, h5, h6, p, a {
         height: 56px;
                 }
 
-        /* FOOTER */
+        /* FOOTER MOBILE*/
 
         .footer-container {
         display: flex;
@@ -2230,5 +2230,18 @@ margin-right: 76px;
 
 
 /* FOOTER DESKTOP */
+
+.footer-container {
+    flex-wrap: nowrap;
+    align-items: baseline;
+    gap: 0px;
+    row-gap: 0px;
+    padding-left: 0px;
+}
+
+.footer-logo-container {
+    margin-right: 120px;
+
+}
 
 }
