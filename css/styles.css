@@ -1145,6 +1145,10 @@ height: 16px;
     display: none;
 }
 
+.js-menu-container {
+    display: none;
+}
+
         .section {
             margin-bottom: 96px;
         }
@@ -2085,6 +2089,10 @@ height: 16px;
 .menu-hamburger {
         display: none;
     }
+
+.js-menu-container {
+    display: none;
+}
 
 .section {
     padding: 120px 0;
