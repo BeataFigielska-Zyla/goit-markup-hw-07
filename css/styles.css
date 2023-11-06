@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6, p, a {
     margin: 0 auto;
                 }
 
-    /* HEADER */
+    /* HEADER MOBILE */
         
     .header {
     outline: 1px solid var(--cornflower-color);
@@ -169,7 +169,7 @@ h1, h2, h3, h4, h5, h6, p, a {
             margin-left: 332px;
         }
 
-    /* SECTION 1 */
+    /* SECTION 1 MOBILE */
 
         .main-section {
         display: flex;
@@ -241,7 +241,7 @@ h1, h2, h3, h4, h5, h6, p, a {
                  }
 
 
-    /* SECTION 2 */
+    /* SECTION 2 MOBILE */
 
     .icon-our-strategy {
         display: none;
@@ -277,13 +277,13 @@ h1, h2, h3, h4, h5, h6, p, a {
         letter-spacing: 0.02em;
                  }
 
-        /* SECTION 3 */
+        /* SECTION 3 MOBILE */
         
         .section-three {
         display: none;
         }
     
-        /* SECTION 4 */
+        /* SECTION 4 MOBILE */
 
         .our-team-headline {
         font-family: Roboto;
@@ -385,7 +385,7 @@ h1, h2, h3, h4, h5, h6, p, a {
         fill: #f4f4fd;
                 }
 
-        /* SECTION 5 */
+        /* SECTION 5 MOBILE */
 
         .customers-headline {
             text-align: center;
@@ -600,7 +600,7 @@ h1, h2, h3, h4, h5, h6, p, a {
         margin-left: 16px;
         }
 
-        /* PORTFOLIO */
+        /* PORTFOLIO MOBILE */
 
         .portfolio-section {
         padding: 96px 0 120px 0
@@ -718,7 +718,7 @@ h1, h2, h3, h4, h5, h6, p, a {
         }
     
        
-/* HAMBURGER */
+/* HAMBURGER MOBILE */
 
 .button-hamburger {
 border: none;
@@ -892,7 +892,7 @@ height: 16px;
      
   
         
-              /* MODAL WINDOW */
+              /* MODAL WINDOW MOBILE*/
     
         .modal-window {
             position: fixed;
@@ -1154,7 +1154,7 @@ height: 16px;
             margin: 0 auto;
         }
     
-        /* HEADER */
+        /* HEADER TABLET */
     
         .header {
             outline: 1px solid var(--cornflower-color);
@@ -1266,7 +1266,7 @@ height: 16px;
         background-color: var(--ocean-color);
                 }
     
-        /* SECTION 1 */
+        /* SECTION 1 TABLET */
     
         .main-section {
             display: flex;
@@ -1341,7 +1341,7 @@ height: 16px;
         }
     
     
-        /* SECTION 2 */
+        /* SECTION 2 TABLET */
     
         .icon-our-strategy {
             display: none;
@@ -1381,13 +1381,13 @@ height: 16px;
             letter-spacing: 0.02em;
         }
     
-        /* SECTION 3 */
+        /* SECTION 3 TABLET */
     
         .section-three {
             display: none;
         }
     
-        /* SECTION 4 */
+        /* SECTION 4 TABLET*/
 
 
         .background-section {
@@ -1492,7 +1492,7 @@ height: 16px;
             fill: #f4f4fd;
         }
     
-        /* SECTION 5 */
+        /* SECTION 5 TABLET */
     
         .customers-headline {
             text-align: center;
@@ -1549,7 +1549,7 @@ height: 16px;
             fill: currentColor;
         }
     
-        /* FOOTER */
+        /* FOOTER TABLET */
     
         .footer-container {
             display: flex;
@@ -1706,7 +1706,7 @@ height: 16px;
             margin-left: 16px;
         }
     
-        /* PORTFOLIO */
+        /* PORTFOLIO TABLET */
     
         .portfolio-section {
             padding-top: 64px;
@@ -1828,7 +1828,7 @@ height: 16px;
     
     
     
-        /* MODAL WINDOW */
+        /* MODAL WINDOW TABLET*/
     
         .modal-window {
             position: fixed;
@@ -2097,7 +2097,7 @@ height: 16px;
     padding-right: 15px;
 }
 
-/* HEADER */
+/* HEADER DESKTOP */
 
 .logo {
 margin-right: 76px;   
@@ -2117,7 +2117,7 @@ margin-right: 76px;
     margin-left: 332px;
 }
 
-/* SECTION 1 */
+/* SECTION 1 DESKTOP */
 
 .main-section {
     padding: 188px 0;
@@ -2138,7 +2138,7 @@ margin-right: 76px;
     padding: 0;
 }
 
-/* SECTION 2 */
+/* SECTION 2 DESKTOP */
 
 .icon-our-strategy {
     display: flex;
@@ -2178,7 +2178,7 @@ margin-right: 76px;
    
 }
 
-/* section 3 */
+/* section 3 DESKTOP */
 
 .section-three {
     padding-top: 0;
@@ -2207,8 +2207,20 @@ margin-right: 76px;
     width: calc((100% - 48px) / 3);
 }
 
-/* SECTION 4 */
+/* SECTION 4 DESKTOP */
+
+.background-list {
+    width: calc((100% - 72px) / 4);
+   
+}
+
+.team-name {
+   
+}
+
+/* SECTION 5 DESKTOP */
 
 
+/* FOOTER DESKTOP */
 
 }
