@@ -2261,6 +2261,12 @@ margin-right: 76px;
 
 }
 
+ .logo-footer {
+     display: block;
+     text-align: start;
+     margin: 0;
+ }
+
 .newsletter-div {
     margin-left: 80px;
     gap: 0px;
@@ -2274,5 +2280,7 @@ margin-right: 76px;
 .newsletter-input {
     width: 264px; 
 }
+
+/* PORTFOLIO DESKTOP */
 
 }
