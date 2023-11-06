@@ -74,7 +74,8 @@ h1, h2, h3, h4, h5, h6, p, a {
         }
     
     .container {
-    width: 428px;
+    min-width: 320px
+    max-width: 428px;
     margin: 0 auto;
                 }
 
