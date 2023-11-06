@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 
 /* ================================================= MOBILE ========================================= */
-@media screen and (min-width: 428px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
     
     .section {
     margin-bottom: 96px;       
