@@ -761,7 +761,8 @@ transform: translateY(0);
 
 .hamburger-div {
 margin: auto;
-max-width: 428px;
+/* max-width: 428px; */
+max-width: 100%;
          }
 
 .hamburger-button-container {
@@ -1161,6 +1162,19 @@ height: 16px;
     .modal-window-body {
     width: 408px;
 }
+
+.hamburger-div {
+    margin: auto;
+    max-width: 428px;  
+}
+
+.hamburger-social-media-list {
+   
+    gap: 56px;
+    justify-content: flex-start;
+   
+}
+
 }
 
 
