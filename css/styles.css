@@ -67,6 +67,10 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 
 /* ================================================= MOBILE ========================================= */
+
+
+
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
     
     .section {
@@ -1143,6 +1147,13 @@ height: 16px;
     
     }
 
+@media screen and (min-width: 428px) {
+    .container {
+            max-width: 428px;
+            
+        }
+}
+
 /* ================================================= TABLET ========================================= */
 @media screen and (min-width: 768px) {
     
@@ -2135,10 +2146,15 @@ margin-right: 76px;
 
 /* SECTION 1 DESKTOP */
 
+
 .main-section {
+    
     padding: 188px 0;
-    max-width: 1440px;
+    background-color: var(--navyblue-color);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/main/people-office.jpg);
+    max-width: 1440px; 
 }
+
 
 .hero {
     display: box;
