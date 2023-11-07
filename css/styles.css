@@ -1147,12 +1147,6 @@ height: 16px;
     
     }
 
-@media screen and (min-width: 428px) {
-    .container {
-            max-width: 428px;
-            
-        }
-}
 
 /* ================================================= TABLET ========================================= */
 @media screen and (min-width: 768px) {
@@ -2154,6 +2148,8 @@ margin-right: 76px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/main/people-office.jpg);
     max-width: 1440px; 
 }
+
+
 
 
 .hero {
