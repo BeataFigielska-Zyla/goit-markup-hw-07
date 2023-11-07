@@ -557,7 +557,7 @@ h1, h2, h3, h4, h5, h6, p, a {
         .newsletter-label {}
         
         .newsletter-input {
-        width: 398px;
+        width: 290px;
         height: 40px;
         background-color: var(--navyblue-color);
         border-radius: 4px;
@@ -1152,6 +1152,10 @@ height: 16px;
     .container {
         width: 428px;
     }
+
+    .newsletter-input {
+    width: 398px;
+        }
 }
 
 
